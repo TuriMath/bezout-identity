@@ -1,0 +1,14 @@
+{
+  "slug": "BezoutIdentity",
+  "issue": "TuriMath/bezout-identity#1",
+  "tier": 0,
+  "source": "Wikipedia, Bézout's identity (lead)",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Int.gcd_dvd_left", "Int.gcd_dvd_right", "Int.gcd_emod", "Int.emod_def", "Int.emod_nonneg", "Int.emod_lt", "Int.mul_sign_self"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "see lake-manifest.json",
+  "notes": "Did not cite Int.gcd_eq_gcd_ab. Euclid's algorithm as strong induction on |b| gives the coefficients; the 'moreover' part follows from gcd dividing a and b. Only snag: no Mathlib lemma for |a % b| < |b| by name, omega closes it from emod_nonneg/emod_lt."
+}
