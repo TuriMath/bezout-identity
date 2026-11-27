@@ -2,3 +2,4 @@
 import Theorems.BezoutIdentity.A
 import Theorems.BezoutIdentity.B
 import Theorems.BezoutIdentity.Equiv
+import Theorems.BezoutIdentity.Proof
