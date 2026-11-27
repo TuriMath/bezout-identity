@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+8e6aff5b49e14235f2e445e78dd3ff096415d2c4fafca377923dccce25f7adf5  Theorems/BezoutIdentity/A.lean
+c6173e53ca7e1d9e8673919445a3c022e50c7692a2d4bad949735db214aa999b  Theorems/BezoutIdentity/B.lean
+3094b1e9376d06435ec9801bb8f14ec846e632b47499116a69efc83375c49479  Theorems/BezoutIdentity/Equiv.lean
